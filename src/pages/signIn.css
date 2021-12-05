@@ -1,0 +1,17 @@
+.buttons{
+    border-radius: 10pt;
+    font-size: 12pt;
+    padding:7pt 27pt;
+    border:none;
+}
+
+.input_box{
+    border-radius: 9pt;
+    border: 1pt solid #e9e9e9;
+    background:#b7b5b71f;
+    font-size:12pt;
+}
+
+.main{
+    max-width: 400pt; background: #fbfbfb;  border-radius: 9pt;  padding: 40pt 40pt;  border: 1pt solid #e5e5e5;
+}
