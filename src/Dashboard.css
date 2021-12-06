@@ -1,0 +1,23 @@
+.user{
+    padding:  14pt;
+    margin-top:  20pt;
+    border:  1pt solid #7c7c7c40;
+    background:  white;
+    border-radius: 6pt;
+    box-shadow:  1pt 1pt 1pt 1pt #e3e2e2; 
+}
+
+.views_sec{
+    padding:  10pt; 
+    margin-top: 10pt; 
+    border:  1pt solid #7c7c7c40; 
+    background:  white; 
+    border-radius: 6pt; 
+    box-shadow:  1pt 1pt 1pt 1pt #e3e2e2;
+}
+
+.card_sec{
+    margin-top: 20pt;
+    border: 1pt solid #7c7c7c40;
+    box-shadow: 1pt 1pt 1pt 1pt #e3e2e2;
+}
