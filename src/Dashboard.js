@@ -1,15 +1,13 @@
 import React from "react";
-import { Container, Col, Row, Card } from "react-bootstrap";
-import TopBar from "./Navbar";
+import { Container, Col, Row, Card} from "react-bootstrap";
 import d from "./d.png";
 import "./Dashboard.css";
-import Posts from "./pages/Posts";
 
-const Dashboard = () => {
+
+const Dash = () => {
     return (
         <>
-        <TopBar /> 
-        <Container>
+        <Container style={{marginTop: "80pt"}}>
         <Row>
         <Col md={4}>
             <div className="user">
@@ -62,4 +60,4 @@ const Dashboard = () => {
      );
 }
  
-export default Dashboard;
+export default Dash;

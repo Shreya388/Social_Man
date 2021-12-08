@@ -1,0 +1,28 @@
+.alink{
+    background: #51c3d3; padding: 17pt; color: white; text-decoration: none;
+}
+
+.alink:hover {
+    color: white;
+}
+
+.link{
+    padding: 17pt; color: white; text-decoration: none;
+}
+
+.link:hover{
+   background: #166a77; padding: 17pt; color: white; text-decoration: none;
+}
+
+.link:active{
+    background: #166a77; padding: 17pt; color: white; text-decoration: none;
+ }
+
+button{
+    margin-left:60pt;
+    background: rgba(26, 26, 26, 0.877);
+    color: white;
+    border-radius: 10pt;
+    padding: 17pt;
+    border: 1pt solid rgb(107, 107, 107);
+}

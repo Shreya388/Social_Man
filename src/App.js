@@ -1,12 +1,27 @@
 import './App.css';
-import Dashboard from "./Dashboard";
+import Dash from "./Dashboard"
+import Posts from "./pages/Posts";
+import SignIn from "./pages/signIn";
+import TopBar from './Navbar';
+
+
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <Dashboard />
+      <TopBar />
+      <Switch>
+        <Route path="/" exact component={Dash} />
+        <Route path="/posts" component={Posts} />
+        <Route path= "/signin" component={SignIn} />
+      </Switch>
     </div>
+    </Router>
   );
 }
+
+
 
 export default App;

@@ -1,20 +1,23 @@
 import React from "react";
 import { Navbar, Container, Nav} from "react-bootstrap";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const TopBar = () => {
     return ( 
-            <Navbar bg="dark" expand="lg" variant="dark" style={{ padding: "0"}}>
+            <Navbar className="fixed-top" bg="dark" expand="lg" variant="dark" style={{ padding: "0"}}>
               <Container>
               <Navbar.Brand href="#home">SocialMan</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ padding: "15pt"}}/>
                 <Navbar.Collapse id="basic-navbar-nav">
                   
                   <Nav className="mr-auto ml-auto" style={{marginLeft: "auto", marginRight: "auto"}}>
-                    <Nav.Link active href="#home" style={{background: "#51c3d3", padding: "17pt"}}>Dashboard</Nav.Link>
-                    <Nav.Link active href="#home" style={{ padding: "17pt"}}>Posts</Nav.Link>
-                    <Nav.Link active href="#home" style={{ padding: "17pt"}}>Messages</Nav.Link>
-                    <Nav.Link active href="#home" style={{ padding: "17pt"}}>Feeds</Nav.Link>
-                    <Nav.Link active href="#link" style={{ padding: "17pt"}}>Tasks</Nav.Link>
+                    <Link to="/" className="alink">Dashboard</Link>
+                    <Link to="/posts" className="link">Posts</Link>
+                    <Link to="/messages" className="link">Messages</Link>
+                    <Link to="/feeds" className="link">Feed</Link>
+                    <Link to="/tasks" className="link">Tasks</Link>
+                    <Link to="/signIn" className=""><button className="">Log In</button></Link>
                   </Nav>
                 
                 </Navbar.Collapse>

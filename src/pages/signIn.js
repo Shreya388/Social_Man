@@ -5,7 +5,7 @@ import "./signIn.css";
 
 const SignIn = () => {
     return ( 
-            <div className="col-md-12 d-flex justify-content-center" style={{marginTop: "70pt"}}>
+            <div className="col-md-12 d-flex justify-content-center" style={{marginTop: "100pt"}}>
             
             
             <div className="main">
