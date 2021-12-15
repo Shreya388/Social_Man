@@ -1,0 +1,9 @@
+.chatInput{
+    background: #efefeff2;
+    border-radius: 10pt;
+    padding: 10pt 15pt;
+    width: 310pt;
+    margin: 10pt;
+    text-align: center;
+    border: 1pt solid #16404630;
+}
