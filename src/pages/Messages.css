@@ -1,4 +1,4 @@
-.chatInput{
+.findChat{
     background: #efefeff2;
     border-radius: 10pt;
     padding: 10pt 15pt;
@@ -6,4 +6,16 @@
     margin: 10pt;
     text-align: center;
     border: 1pt solid #16404630;
+}
+
+.chatInput {
+    border: 1pt solid silver; border-radius: 7pt; background: rgba(233, 233, 233, 0.76); padding:6pt 10pt; width: 500pt;
+}
+
+.activeUser{
+    background: rgb(205, 229, 238); padding: 5pt 30pt; border-bottom: 1pt solid #4a9dccd3;
+}
+
+.User{
+    background: white; padding: 5pt 30pt; border-bottom: 1pt solid #bdbdbdad;
 }

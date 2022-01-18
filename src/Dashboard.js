@@ -12,8 +12,8 @@ const Dash = () => {
         <Col md={4}>
             <div className="user">
                 <Container>
-                    <h1 className="display-6">Baua</h1>
-                    <p className="">Bauax@gmail.com</p>
+                    <h1 className="display-6">random</h1>
+                    <p className="">random@gmail.com</p>
                 </Container>
             </div>
             <Row>

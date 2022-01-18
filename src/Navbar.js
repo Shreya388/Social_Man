@@ -17,7 +17,6 @@ const TopBar = () => {
                     <Link to="/messages" className="link">Messages</Link>
                     <Link to="/feeds" className="link">Feed</Link>
                     <Link to="/tasks" className="link">Tasks</Link>
-                    <Link to="/signIn" className=""><button className="">Log In</button></Link>
                   </Nav>
                 
                 </Navbar.Collapse>
